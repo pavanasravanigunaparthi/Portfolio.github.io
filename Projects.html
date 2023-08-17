@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project</title>
+    <link rel="icon" href="project.jpeg" target="blank">
+    <style>
+      body{
+        background-color: #F2F4F7;
+      }
+      h1{
+        text-align: center;
+      }
+      h2{
+        text-align: left;
+      }
+      p{
+        text-align: justify;
+        font-size: 18px;
+      }
+    </style>
+</head>
+<body>
+    <h1>MISSING CHILD IDENTIFICATION SYSTEM USING <br> DEEP LEARNING AND MULTICLASS SVM</h1>
+    <h2>ABSTRACT</h2>
+    <p>This project presents a novel use of deep learning methodology for identifying the reported missing child from the photos of 
+       multitude of children available, with the help of face recognition. The public can upload photographs of suspicious child into 
+       a common portal with landmarks and remarks. The photo will be automatically compared with the registered photos of the missing 
+       child from the repository. Classification of the input child image is performed and photo with best match will be selected from 
+       the database of missing children. The Convolutional Neural Network (CNN), a highly effective deep learning technique for image 
+       based applications is adopted here for face recognition. Face descriptors are extracted from the images using a pre-trained CNN 
+       model VGG-Face deep architecture. Compared with normal deep learning applications, our algorithm uses convolution network only as 
+       a high level feature extractor and the child recognition is done by the trained SVM classifier.</p>
+    <h2>INTRODUCTION</h2>
+    <p>Children are the greatest asset of each nation. The future of any country depends upon the right upbringing of its children.
+       India is the second populous country in the world and children represent a significant percentage of total population. 
+       But unfortunately a large number of children go missing every year in India due to various reasons including abduction or
+       kidnapping, run-away children, trafficked children and lost children. A deeply disturbing fact about India's missing children 
+       is that while on an average 173 children go missing every day, half of them remain untraced.Mostly missing child cases are 
+       reported to the police.<br>
+       The child missing from one region may be found in another region or another state, for various reasons. 
+       So even if a child is found, it is difficult to identify him/her from the reported missing cases. A framework and methodology 
+       for developing an assistive tool for tracing missing child is described in this paper. An idea for maintaining a virtual space 
+       is proposed, such that the recent photographs of children given by parents at the time of reporting missing cases is saved in a 
+       repository.<br> 
+       The public is given provision to voluntarily take photographs of children in suspected situations and uploaded in 
+       that portal. Automatic searching of this photo among the missing child case images will be provided in the application.
+       Mostly missing child cases are reported to the police. The child missing from one region may be found in another region or 
+       another state, for various reasons. So even if a child is found, it is difficult to identify him/her from the reported missing 
+       cases. <br>
+       A framework and methodology for developing an assistive tool for tracing missing child is described in this paper.
+       An idea for maintaining a virtual space is proposed, such that the recent photographs of children given by parents at the time 
+       of reporting missing cases is saved in a repository. The public is given provision to voluntarily take photographs of children 
+       in suspected situations and uploaded in that portal. Automatic searching of this photo among the missing child case images will 
+       be provided in the application.</p>
+       <h2>SCOPE</h2>
+       <p>
+        In India a countless number of children are reported missing every year. Among the missing child cases a large percentage of 
+        children remain untraced.The public can upload photographs of suspicious child into a common portal with landmarks and remarks.
+        The photo will be automatically compared with the registered photos of the missing child from the repository.The Convolutional 
+        Neural Network (CNN), a highly effective deep learning technique for image based applications is adopted here for face recognition.
+       </p>
+       <h2>MODEL DIAGRAM</h2>
+       <center>
+       <img src="architecture.jpg" alt=""><br>
+       <b>Architecture of Proposed Child Identification System</b>
+      </center>
+      <h2>OUTPUT SCREENSHOTS</h2><br>
+      <center>
+      <img src="Screen1.jpg" alt="" height="500px" weight="300px">
+      <h3>Output Window Page</h3><br>
+      <img src="Screen2.jpg" alt="" height="500px" weight="300px">
+      <h3>Official Login Page</h3><br>
+      <img src="Screen3.jpg" alt="" height="500px" weight="300px">
+      <h3>Welcome Admin Page</h3><br>
+      <img src="Screen3.jpg" alt="" height="500px" weight="300px">
+      <h3>Public Missing Child Upload Screen</h3><br>
+      <img src="Screen5.jpg" alt="" height="500px" weight="300px">
+      <h3>Upload Missing Child Image</h3><br>
+      <img src="Screen6.jpg" alt="" height="500px" weight="300px">
+      <h3>Test Images Results</h3><br>
+    </center>
+      <h2>CONCLUSION</h2>
+      <p>A missing child identification system is proposed, which combines the powerful CNN based deep learning approach for feature 
+        extraction and support vector machine classifier for classification of different child categories. This system is evaluated 
+        with the deep learning model which is trained with feature representations of children faces. By discarding thesoftmax of the 
+        VGG-Face model and extracting CNN image features to train a multi class SVM, it was possible to achieve superior performance. 
+        Performance of the proposed system is tested using the photographs of children with different lighting conditions, noises and 
+        also images at different ages of children. The classification achieved a higher accuracy of 99.31% which shows that the proposed
+        methodology of face recognition could be used for reliable missing children identification.
+      </p>
+</body>
+</html>

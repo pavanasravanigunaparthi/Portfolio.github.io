@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Me</title>
+<link rel="icon" href="contact.jpeg">
+<style>
+    a{
+        text-decoration: none;
+    }
+    body{
+        background-color: #A6F0C6;
+        font-size: 18px;
+    }
+    h2{
+        text-align: center;
+        border: 3px solid red;
+        width: 5%;
+        height: 25px;
+        background-color: chartreuse;
+        animation-name: ani;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes ani{
+        from{background-color: chartreuse;}
+        to{background-color:cyan;}
+    }
+</style>
+</head>
+<body>
+    <p><b>Note: </b>If you have any job role that suitable to my portfolio.Then you can contact me...!</p>
+    <p>LinkedIn : <a href="https://www.linkedin.com/in/pavana-sravani-gunaparthi-104201245">
+        linkedin.com/in/pavana-sravani-gunaparthi-104201245</a></p><br>
+    <form action="">
+        <fieldset>
+            <legend>Contact Details</legend>
+                <center>
+        <label for="name">Name:</label>
+        <input type="text" required placeholder="Ex:Sachin" id="name" name="name"><br><br>
+        <label for="number">Number:</label>
+        <input type="" required placeholder="Ex:9876543210" id="number" name="number"pattern="[6-9]{1}[0-9]{9}"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" required placeholder="Ex:sachin@gmail.com" id="emial" name="email"><br><br>
+        <input type="Submit"><br>
+        <p>After Submit kindly click on Next...</p>
+        </center>
+    </fieldset>
+    </form>
+    <a href="thanks.html"><center><h2>Next</h2></center></a>
+    </form>
+</body>
+</html>
